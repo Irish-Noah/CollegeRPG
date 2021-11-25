@@ -1,6 +1,8 @@
-#include <iostream>
+/**
+ * @file main.cpp
+ * @author Noah O'Bryan
+ */
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+#include "CollegeAPP.h"
+
+wxIMPLEMENT_APP(CollegeAPP);

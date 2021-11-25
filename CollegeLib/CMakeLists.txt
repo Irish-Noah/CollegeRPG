@@ -1,6 +1,6 @@
 project(CollegeLib)
 
-set(SOURCE_FILES MainFrame.cpp MainFrame.h pch.h)
+set(SOURCE_FILES CollegeView.cpp CollegeView.h MainFrame.cpp MainFrame.h pch.h)
 
 set(wxBUILD_PRECOMP OFF)
 find_package(wxWidgets COMPONENTS core base xrc html xml REQUIRED)

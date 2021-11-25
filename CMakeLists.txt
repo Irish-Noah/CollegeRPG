@@ -11,9 +11,12 @@ find_package(wxWidgets COMPONENTS core base xrc html xml REQUIRED)
 include(${wxWidgets_USE_FILE})
 
 # Define a variable containing a list of source files for the project
-set(SOURCE_FILES main.cpp CollegeAPP.cpp CollegeAPP.h)
+set(SOURCE_FILES main.cpp CollegeAPP.cpp CollegeAPP.h pch.h)
 
-add_executable(CollegeRPG WIN32 MACOSX_BUNDLE ${SOURCE_FILES})
+add_executable(${PROJECT_NAME} WIN32 MACOSX_BUNDLE ${SOURCE_FILES})
 
 # Link required libraries to the executable
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})
+
+# Include precompiled headers file
+target_precompile_headers(${PROJECT_NAME} PRIVATE pch.h)

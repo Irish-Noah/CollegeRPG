@@ -8,8 +8,6 @@
 #ifndef COLLEGERPG_COLLEGEAPP_H
 #define COLLEGERPG_COLLEGEAPP_H
 
-#include <wx/wx.h>
-
 /**
  * Main application class
  */

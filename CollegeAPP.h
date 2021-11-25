@@ -8,6 +8,8 @@
 #ifndef COLLEGERPG_COLLEGEAPP_H
 #define COLLEGERPG_COLLEGEAPP_H
 
+#include <MainFrame.h>
+
 /**
  * Main application class
  */

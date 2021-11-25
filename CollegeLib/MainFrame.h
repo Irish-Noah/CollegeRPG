@@ -1,15 +1,22 @@
 /**
  * @file MainFrame.h
  * @author Noah O'Bryan
+ *
+ * The top-level (main) frame of the application
  */
 
 
 #ifndef COLLEGERPG_MAINFRAME_H
 #define COLLEGERPG_MAINFRAME_H
 
+/**
+ * The top-level (main) frame of the application
+ */
+class MainFrame : public wxFrame {
+private:
 
-class MainFrame {
-
+public:
+    void Initialize(); 
 };
 
 

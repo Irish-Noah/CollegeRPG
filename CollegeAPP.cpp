@@ -16,5 +16,10 @@ bool CollegeAPP::OnInit()
     {
         return false;
     }
+
+    auto frame = new MainFrame();
+    frame->Initialize();
+    frame->Show(true);
+
     return true;
 }
